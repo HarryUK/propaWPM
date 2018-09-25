@@ -33,6 +33,17 @@ body {
     height: 100vh;
 }
 
+
+#bh {
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+}
+
+.connectt {
+    flex-direction: row;
+}
+
 .btn {
     background: #1a1535;
     border: 0px;
@@ -75,10 +86,4 @@ body {
     to {
         opacity: 0;
     }
-}
-
-#bh {
-    width: 1px;
-    height: 1px;
-    opacity: 0;
 }
