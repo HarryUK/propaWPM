@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>propaWPM</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+
+    <div id="v1" class="mid-float">
+        <h2>propaWPM</h2>
+        <p>Extremely lightweight 'propa' WPM calculation based on free-typing.</p>
+        <button class="btn" id="ctt">Continue</button>
+    </div>
+
+    <div id="v2" class="mid-float">
+        <h2>propaWPM</h2>
+        <p>This test will calculate as soon as you start typing below.</p>
+        <p>Time: <span id="amountTime">1:00</span></p>
+        <textarea id="wordbox" oncopy="return false" onpaste="return false"></textarea>
+    </div>
+
+    <div id="v3" class="mid-float">
+        <h2>propaWPM</h2>
+        <h3>Results:</h3>
+        <p>WPM: <span id="results"></span></p>
+        <button class="btn" id="copyResults">Copy</button>
+        <textarea id="bh"></textarea>
+    </div>
+    <script src="js/main.js" row="5"></script>
+</body>
+</html>
